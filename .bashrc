@@ -1,5 +1,5 @@
 # git add rootDir, commit, and push
-git-going () { 
+git-no-master () { 
 	branch=$(git symbolic-ref --short HEAD);
 	message=$1;
 	if [ "$#" != "1" ]; then
